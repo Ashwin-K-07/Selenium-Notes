@@ -2,21 +2,21 @@ import time ## time delay with time.sleep(seconds)
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-# 1
-# driver = webdriver.Chrome()
-# # 2
-# driver.get("https://www.facebook.com/")
-# driver.implicitly_wait(10)
-# # ID
-#
-# # User Name
-# txtuser = driver.find_element(By.ID, "email")
-# txtuser.send_keys("ashwinkgk07@gmail.com")
-#
-# # Password
-# txtpass = driver.find_element(By.ID, "pass")
-# txtpass.send_keys("98764321")
-#
+1
+driver = webdriver.Chrome()
+# 2
+driver.get("https://www.facebook.com/")
+driver.implicitly_wait(10)
+# ID
+
+# User Name
+txtuser = driver.find_element(By.ID, "email")
+txtuser.send_keys("ashwinkgk07@gmail.com")
+
+# Password
+txtpass = driver.find_element(By.ID, "pass")
+txtpass.send_keys("98764321")
+print("Locators")
 # # login
 # butnlogin= driver.find_element(By.ID, "u_0_5_nb")
 # butnlogin.click()
